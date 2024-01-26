@@ -1,0 +1,58 @@
+<testsuites name="jest tests" tests="4" failures="2" time="5.054">
+  <testsuite name="undefined" errors="0" failures="2" skipped="0" timestamp="2023-09-11T18:39:56" time="5.054" tests="4">
+    <testcase classname=" Initial articles render correctly" name=" Initial articles render correctly" time="0.1">
+    </testcase>
+    <testcase classname=" Clicking on top renders expected articles" name=" Clicking on top renders expected articles" time="0.043">
+    </testcase>
+    <testcase classname=" Clicking on newest renders expected articles" name=" Clicking on newest renders expected articles" time="0.044">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected
++ Received
+
+  Array [
+-   &quot;Simple text editor has 15k monthly users&quot;,
+-   &quot;83&quot;,
+-   &quot;2020-02-22&quot;,
++   &quot;Artificial Mountains&quot;,
++   &quot;200&quot;,
++   &quot;2019-11-23&quot;,
+  ]
+    at forEach (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\src\App.test.js:89:36)
+    at Array.forEach (&lt;anonymous&gt;)
+    at expectArticles (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\src\App.test.js:84:12)
+    at Object.&lt;anonymous&gt; (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\src\App.test.js:117:3)
+    at Object.asyncJestTest (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname=" Sequence of navigation clicks renders expected artices" name=" Sequence of navigation clicks renders expected artices" time="0.028">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected
++ Received
+
+  Array [
+-   &quot;Simple text editor has 15k monthly users&quot;,
+-   &quot;83&quot;,
+-   &quot;2020-02-22&quot;,
++   &quot;Artificial Mountains&quot;,
++   &quot;200&quot;,
++   &quot;2019-11-23&quot;,
+  ]
+    at forEach (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\src\App.test.js:89:36)
+    at Array.forEach (&lt;anonymous&gt;)
+    at expectArticles (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\src\App.test.js:84:12)
+    at Object.&lt;anonymous&gt; (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\src\App.test.js:132:5)
+    at Object.asyncJestTest (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\Madhurita\Git_Code\6fb68a89-898a-43b3-84ee-bda288099b4e\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
